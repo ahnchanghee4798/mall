@@ -24,6 +24,12 @@ public class Order  {
     
     
     private Long id;
+    
+    
+    
+    
+    
+    private Integer qty;
 
     @PostPersist
     public void onPostPersist(){

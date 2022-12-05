@@ -68,6 +68,7 @@
             me.values = temp.data._embedded.orders;
             
             me.newValue = {
+                'qty': 0,
             }
         },
         methods:{

@@ -5,6 +5,9 @@
         </v-card-title>
 
         <v-card-text>
+            <div>
+                <Number label="Qty" v-model="item.qty" :editMode="editMode" @change="change" />
+            </div>
         </v-card-text>
 
         <v-card-actions>

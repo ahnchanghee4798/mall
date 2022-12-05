@@ -67,6 +67,7 @@
             headers: 
                 [
                     { text: "id", value: "id" },
+                    { text: "qty", value: "qty" },
                 ],
             order : [],
             newValue: {},
@@ -84,6 +85,7 @@
             this.values = temp.data._embedded.orders;
 
             this.newValue = {
+                'qty': 0,
             }
         },
         methods: {
