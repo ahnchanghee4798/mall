@@ -11,6 +11,7 @@ import lombok.*;
 public class OrderPlaced extends AbstractEvent {
 
     private Long id;
+    private Integer qty;
 
     public OrderPlaced(Order aggregate){
         super(aggregate);
